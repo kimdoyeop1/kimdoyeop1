@@ -12,14 +12,16 @@
 ![Three.js](https://img.shields.io/badge/Three.js-디지털_트윈-000000?logo=threedotjs&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-수집_DB-003B57?logo=sqlite&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-유량_DB-F80000?logo=oracle&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-유량감시-777BB4?logo=php&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-유량_DB-4169E1?logo=postgresql&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-화면_설계-F24E1E?logo=figma&logoColor=white)
 
 ### 기술
 
 | 분야 | 사용 |
 |---|---|
-| 산업용 · 데스크톱 | C# · .NET 10 · WPF, SQLite · Oracle, ETOS 게이트웨이 FEnet · Modbus TCP 통신, SCADA/HMI(CIMON) |
-| 웹 · 업무 시스템 | TypeScript · React · Vite · shadcn/ui, Supabase(PostgreSQL · Edge Functions) |
+| 산업용 · 데스크톱 | C# · .NET 10 · WPF, SQLite, ETOS 게이트웨이 FEnet 통신, SCADA/HMI(CIMON) |
+| 웹 · 업무 시스템 | TypeScript · React · Vite · shadcn/ui, Supabase(PostgreSQL · Edge Functions), PHP · PostgreSQL · Oracle |
 | 3D · 디지털 트윈 | Three.js · WebGL · glTF |
 | 데이터 · 자동화 | Python, SQL, Excel 자동화, Playwright |
 | 설계 · 문서 | Figma, 기능명세서 · 기능점수(FP) · 제안서 · HWPX |
@@ -31,7 +33,7 @@
 | 프로젝트 | 내용 | 기술 |
 |---|---|---|
 | **상수도 5개 사업소 통합감시 · 제어 시스템** | 가압장 · 배수지 원격 감시 · 제어 프로그램. 통신 게이트웨이 프로토콜 직접 구현, 태그 8,600여 개 수집 · 경보 · 트렌드 · 보고서(일 · 주 · 월 · 연보) · 감사 로그 · 원격 제어(확인 창 · 결과 확인). 관리자 모드에서 화면을 바로 편집(도면 편집기 · 보고서 작화 · 트렌드 그룹). Python 시제품을 C#으로 이식 — 소스 3.6만 줄 · 단위시험 329건 | C# · .NET 10 · WPF · SQLite · Python |
-| **상수도 유량감시 시스템** | 유량계 · 수압계 262곳을 1분마다 수집해 순시 · 적산 · 압력을 실시간 관제 · 그래프 · 일보 · 월보 · 연보로 제공. 수집기(Windows 서비스 · Modbus TCP 직접 구현 · PLC 제조사별 데이터 해석 실측 검증)와 조회 프로그램을 나눔, 1분 기록 · 현재값 · 시간 · 일 요약 구조로 5년 약 10억 행 규모 설계 | C# · .NET 8 · Oracle · Modbus TCP |
+| **상수도 유량감시 시스템** | 유량계 · 수압계 262곳을 1분마다 수집해 순시 · 적산 · 압력을 실시간 관제 · 그래프 · 일보 · 월보 · 연보로 제공. 수집기와 조회 프로그램을 나누고 현장 PLC 제조사별 데이터 해석 규칙을 실측 검증, 1분 기록 · 현재값 · 시간 · 일 요약 구조로 5년 약 10억 행 규모 설계 | PHP · PostgreSQL · Oracle |
 | **HIET ERP — 사내 업무 시스템** | 근태(지문인식기 연동) · 결재 · 프로젝트 · 개발팀 일지 · 주간보고 · 단가 관리 · 계측기 관리 · 안전교육 · 메신저 · 게시판. 화면 60여 개 · 서버 함수 15개 | React · TypeScript · Supabase |
 
 ### 공개 프로젝트 — [develop-korea-tech](https://github.com/develop-korea-tech)
@@ -52,11 +54,18 @@
 
 | 연도 | 대회 | 결과 | 주최 |
 |---|---|---|---|
-| 2022 | 데이터크리에이터 해커톤 — 데이터 관련 아이디어 코딩 | 2등 | 울산정보산업진흥원 |
+| 2022 | UIS 해커톤대회 — 데이터크리에이터 아이디어 부문(데이터 관련 아이디어 코딩) | 버금상(2등) | 울산광역시 · 울산정보산업진흥원 |
 | 2022 | 청년 아이디어 PT 대회 | 장려상 | 경상일보 |
 | 2020 | 경상일보 PT 대회 | 우수상 | 경상일보 |
-| 2019 | 울산 일자리 창업 공모전 | 우수상 | 울산광역시 |
+| 2019 | 일자리창출 아이디어 공모전 | 우수상 | 울산광역시 |
 | 2019 | 청년 아이디어 해커톤 — 청년 정책 아이디어 | 대상 | 울산청년센터 |
+
+<p>
+  <img src="assets/award-2022-uis-hackathon.jpg" height="300" alt="2022 UIS 해커톤대회 데이터크리에이터 아이디어 부문 버금상">
+  <img src="assets/award-2019-job-idea.jpg" height="300" alt="2019 일자리창출 아이디어 공모전 우수상 상패">
+</p>
+
+왼쪽: 2022 UIS 해커톤대회 버금상 · 오른쪽: 2019 일자리창출 아이디어 공모전 우수상
 
 ### 활동
 
