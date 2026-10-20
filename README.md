@@ -1,13 +1,4 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/profile-dark.svg">
-    <img src="assets/metrics/profile-light.svg" width="49%" alt="3D 기여 지형 · 기여 통계(요일별 평균, 7일 이동평균 ±1σ) · 언어 분포">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/twin-dark.svg">
-    <img src="assets/metrics/twin-light.svg" width="49%" alt="디지털 트윈 · 3D 시연, 현장 데이터 규모, 성과">
-  </picture>
-</p>
+## 김도엽 · Kim Doyeop
 
 상수도 SCADA/HMI · 디지털 트윈 · 사내 업무 시스템을 설계부터 납품까지 직접 만드는 개발 PM입니다.
 
@@ -66,6 +57,17 @@
 | [태산그룹 막내아들](https://github.com/develop-korea-tech/bitdata) · [▶ 데모](https://develop-korea-tech.github.io/bitdata/) | 빅데이터분석기사 필기 학습 RPG — 21화 스토리 · 4지선다 설전 170문항(해설 포함) | JavaScript |
 | [가족 같은 회사 — 채용 기록](https://github.com/develop-korea-tech/menhera) · [▶ 데모](https://develop-korea-tech.github.io/menhera/) | 공포 연출 인터랙티브 웹 페이지 | HTML · JavaScript |
 | [모바일 청첩장](https://github.com/develop-korea-tech/wedding) | 지인 의뢰 모바일 청첩장 — 사진 갤러리 · 배경음악 · 카카오톡 공유 카드 | HTML · JavaScript |
+
+#### 디지털 트윈 · 3D 화면
+
+<p>
+  <a href="https://develop-korea-tech.github.io/twinpro-demo/"><img src="assets/screens/twinpro-shipyard.jpg" width="49%" alt="TWIN PRO — 3D 조선소 전체"></a>
+  <a href="https://develop-korea-tech.github.io/twinpro-demo/"><img src="assets/screens/twinpro-block.jpg" width="49%" alt="TWIN PRO — 블록 내부 3D"></a>
+  <a href="https://develop-korea-tech.github.io/twin-demo/"><img src="assets/screens/ev-press-shop.jpg" width="49%" alt="EV 차체 · 조립 공장 디지털 트윈 — 프레스 공장"></a>
+  <a href="https://develop-korea-tech.github.io/physical-ai-sim/"><img src="assets/screens/physical-ai-robot.jpg" width="49%" alt="Physical AI 3D Factory — 로봇 시뮬레이터"></a>
+</p>
+
+위: TWIN PRO 3D 조선소 · 블록 내부 / 아래: EV 차체 공장 프레스 · Physical AI 로봇 시뮬레이터 — 그림을 누르면 데모가 열립니다.
 
 ### 수상
 
