@@ -12,13 +12,14 @@
 ![Python](https://img.shields.io/badge/Python-자동화_·_시제품-3776AB?logo=python&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-디지털_트윈-000000?logo=threedotjs&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-수집_DB-003B57?logo=sqlite&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-유량_DB-F80000?logo=oracle&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-화면_설계-F24E1E?logo=figma&logoColor=white)
 
 ### 기술
 
 | 분야 | 사용 |
 |---|---|
-| 산업용 · 데스크톱 | C# · .NET 10 · WPF, SQLite, ETOS 게이트웨이 FEnet 통신, SCADA/HMI(CIMON) |
+| 산업용 · 데스크톱 | C# · .NET 10 · WPF, SQLite · Oracle, ETOS 게이트웨이 FEnet · Modbus TCP 통신, SCADA/HMI(CIMON) |
 | 웹 · 업무 시스템 | TypeScript · React · Vite · shadcn/ui, Supabase(PostgreSQL · Edge Functions) |
 | 3D · 디지털 트윈 | Three.js · WebGL · glTF |
 | 데이터 · 자동화 | Python, SQL, Excel 자동화, Playwright |
@@ -31,6 +32,7 @@
 | 프로젝트 | 내용 | 기술 |
 |---|---|---|
 | **상수도 5개 사업소 통합감시 · 제어 시스템** | 가압장 · 배수지 원격 감시 · 제어 프로그램. 통신 게이트웨이 프로토콜 직접 구현, 태그 8,600여 개 수집 · 경보 · 트렌드 · 보고서(일 · 주 · 월 · 연보) · 감사 로그 · 원격 제어(확인 창 · 결과 확인). 관리자 모드에서 화면을 바로 편집(도면 편집기 · 보고서 작화 · 트렌드 그룹). Python 시제품을 C#으로 이식 — 소스 3.6만 줄 · 단위시험 329건 | C# · .NET 10 · WPF · SQLite · Python |
+| **상수도 유량감시 시스템** | 유량계 · 수압계 262곳을 1분마다 수집해 순시 · 적산 · 압력을 실시간 관제 · 그래프 · 일보 · 월보 · 연보로 제공. 수집기(Windows 서비스 · Modbus TCP 직접 구현 · PLC 제조사별 데이터 해석 실측 검증)와 조회 프로그램을 나눔, 1분 기록 · 현재값 · 시간 · 일 요약 구조로 5년 약 10억 행 규모 설계 | C# · .NET 8 · Oracle · Modbus TCP |
 | **HIET ERP — 사내 업무 시스템** | 근태(지문인식기 연동) · 결재 · 프로젝트 · 개발팀 일지 · 주간보고 · 단가 관리 · 계측기 관리 · 안전교육 · 메신저 · 게시판. 화면 60여 개 · 서버 함수 15개 | React · TypeScript · Supabase |
 
 ### 공개 프로젝트 — [develop-korea-tech](https://github.com/develop-korea-tech)
