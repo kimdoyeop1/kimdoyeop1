@@ -1,4 +1,13 @@
-## 김도엽 · Kim Doyeop
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/profile-dark.svg">
+    <img src="assets/metrics/profile-light.svg" width="49%" alt="3D 기여 지형 · 기여 통계(요일별 평균, 7일 이동평균 ±1σ) · 언어 분포">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/metrics/twin-dark.svg">
+    <img src="assets/metrics/twin-light.svg" width="49%" alt="디지털 트윈 · 3D 시연, 현장 데이터 규모, 성과">
+  </picture>
+</p>
 
 상수도 SCADA/HMI · 디지털 트윈 · 사내 업무 시스템을 설계부터 납품까지 직접 만드는 개발 PM입니다.
 

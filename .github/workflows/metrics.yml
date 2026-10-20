@@ -1,0 +1,38 @@
+# 프로필 인포그래픽 갱신 — 매일 아침 기여 달력을 받아 assets/metrics/*.svg 를 다시 그린다.
+# 그림이 바뀐 날만 커밋한다. 손으로 돌릴 때는 Actions 탭 → 이 작업 → Run workflow.
+name: 프로필 인포그래픽 갱신
+
+on:
+  schedule:
+    - cron: "17 21 * * *"        # 매일 06:17 (한국 시각)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 기여 달력 받아 다시 그리기
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python metrics/generate.py --fetch
+
+      - name: 바뀐 그림만 커밋
+        run: |
+          if git diff --quiet -- assets/metrics metrics/calendar.json; then
+            echo "바뀐 것 없음"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/metrics metrics/calendar.json
+          git commit -m "프로필 인포그래픽 갱신"
+          git push
