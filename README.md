@@ -5,7 +5,6 @@
 
 - **현장에서 화면까지**: 통신 게이트웨이 프로토콜 · 태그 주소 체계 · 수집기 · DB · 운영 화면 · 보고서를 한 흐름으로 구현
 - **문서와 시제품을 함께**: 기능명세서 · 화면 설계(Figma) · 공공 조달 문서와 실제로 돌아가는 시제품을 같이 만듦
-- **자격**: 정보처리기사 · 컴퓨터활용능력 1급 · ITQ 마스터 · GTQ
 
 ![C#](https://img.shields.io/badge/C%23-.NET_10_·_WPF-512BD4?logo=dotnet&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-React_·_Vite-3178C6?logo=typescript&logoColor=white)
