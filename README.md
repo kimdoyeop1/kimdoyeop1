@@ -40,14 +40,14 @@
 
 | 프로젝트 | 내용 | 기술 |
 |---|---|---|
-| [TWIN PRO 운영 모니터링](https://github.com/develop-korea-tech/twinpro-demo) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) | 조선 블록 제작 공정 운영 모니터링 시연 — 화면 5개, Supabase 테이블 23개 · 서버 함수 16개 · AI 운영 요약, 3D 조선소 모델 (울산 청년 AX 리더십 팀 과제) | JavaScript · Supabase · Three.js |
+| [TWIN PRO 운영 모니터링](https://github.com/develop-korea-tech/twinpro-demo) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) · [▶ 소개 영상](https://develop-korea-tech.github.io/twinpro-demo/media/twinpro-intro-2026-10-18.mp4) | 조선 블록 제작 공정 운영 모니터링 시연 — 화면 5개, Supabase 테이블 23개 · 서버 함수 16개 · AI 운영 요약, 3D 조선소 모델 (울산 청년 AX 리더십 팀 과제) | JavaScript · Supabase · Three.js |
 | [EV 차체 · 조립 공장 디지털 트윈](https://github.com/develop-korea-tech/twin-demo) · [▶ 데모](https://develop-korea-tech.github.io/twin-demo/) | 프레스 → 차체 → 도장 → 의장 공장 3D 트윈, 구역별 자동화율 · AI 도입 전후 비교 | Three.js |
-| [Physical AI 3D Factory](https://github.com/develop-korea-tech/physical-ai-sim) | 모바일 로봇 자동화 공장 3D 시뮬레이션 · 피지컬 AI 발전사 페이지 | Three.js |
-| [Mythos Survivors](https://github.com/develop-korea-tech/mythos_survivors) | 각국 설화 영웅 6명의 서바이벌 웹게임 — 스테이지 3개 · 영웅별 무기 각성 · 모바일 지원 | JavaScript · Canvas |
-| [고양이 vs 집사](https://github.com/develop-korea-tech/yaong) | 유저가 고양이(침입자), AI 집사가 막는 역술래 게임 — 1단계 프로토타입 | JavaScript · Canvas |
-| [Hotel Carta — 잊은 것들의 밤](https://github.com/develop-korea-tech/bitdata-hotel) | 빅데이터분석기사 개념을 퍼즐로 푸는 공포 퍼즐 게임 | JavaScript |
-| [태산그룹 막내아들](https://github.com/develop-korea-tech/bitdata) | 빅데이터분석기사 필기 학습 RPG — 스토리 · 인터랙티브 미션 | JavaScript |
-| [가족 같은 회사 — 채용 기록](https://github.com/develop-korea-tech/menhera) | 공포 연출 인터랙티브 웹 페이지 | HTML · JavaScript |
+| [Physical AI 3D Factory](https://github.com/develop-korea-tech/physical-ai-sim) · [▶ 데모](https://develop-korea-tech.github.io/physical-ai-sim/) | 모바일 로봇 자동화 공장 3D 시뮬레이션 · 피지컬 AI 발전사 페이지 | Three.js |
+| [Mythos Survivors](https://github.com/develop-korea-tech/mythos_survivors) · [▶ 데모](https://develop-korea-tech.github.io/mythos_survivors/) | 각국 설화 영웅 6명의 서바이벌 웹게임 — 스테이지 3개 · 영웅별 무기 각성 · 모바일 지원 | JavaScript · Canvas |
+| [고양이 vs 집사](https://github.com/develop-korea-tech/yaong) · [▶ 데모](https://develop-korea-tech.github.io/yaong/) | 유저가 고양이(침입자), AI 집사가 막는 역술래 게임 — 1단계 프로토타입, 스테이지 10개 | JavaScript · Canvas |
+| [Hotel Carta — 잊은 것들의 밤](https://github.com/develop-korea-tech/bitdata-hotel) · [▶ 데모](https://develop-korea-tech.github.io/bitdata-hotel/) | 빅데이터분석기사 1과목 개념을 3D 호텔 탐색 · 자물쇠 퍼즐로 외우는 게임 — 문서 90개 · 문항 116개 | JavaScript · Three.js |
+| [태산그룹 막내아들](https://github.com/develop-korea-tech/bitdata) · [▶ 데모](https://develop-korea-tech.github.io/bitdata/) | 빅데이터분석기사 필기 학습 RPG — 21화 스토리 · 4지선다 설전 170문항(해설 포함) | JavaScript |
+| [가족 같은 회사 — 채용 기록](https://github.com/develop-korea-tech/menhera) · [▶ 데모](https://develop-korea-tech.github.io/menhera/) | 공포 연출 인터랙티브 웹 페이지 | HTML · JavaScript |
 | [모바일 청첩장](https://github.com/develop-korea-tech/wedding) | 지인 의뢰 모바일 청첩장 — 사진 갤러리 · 배경음악 · 카카오톡 공유 카드 | HTML · JavaScript |
 
 ### 수상
