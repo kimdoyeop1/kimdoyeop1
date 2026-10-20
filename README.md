@@ -49,6 +49,20 @@
 | [가족 같은 회사 — 채용 기록](https://github.com/develop-korea-tech/menhera) | 공포 연출 인터랙티브 웹 페이지 | HTML · JavaScript |
 | [모바일 청첩장](https://github.com/develop-korea-tech/wedding) | 지인 의뢰 모바일 청첩장 — 사진 갤러리 · 배경음악 · 카카오톡 공유 카드 | HTML · JavaScript |
 
+### 수상
+
+| 연도 | 대회 | 결과 | 주최 |
+|---|---|---|---|
+| 2022 | 데이터크리에이터 해커톤 — 데이터 관련 아이디어 코딩 | 2등 | 울산정보산업진흥원 |
+| 2022 | 청년 아이디어 PT 대회 | 장려상 | 경상일보 |
+| 2020 | 경상일보 PT 대회 | 우수상 | 경상일보 |
+| 2019 | 울산 일자리 창업 공모전 | 우수상 | 울산광역시 |
+| 2019 | 청년 아이디어 해커톤 — 청년 정책 아이디어 | 대상 | 울산청년센터 |
+
+### 활동
+
+- 2021.09 ~ 2021.12 · 공공데이터 청년인턴 — 데이터 개념 정리
+
 ### 학습 기록 (2023 ~ 2024)
 
 [Javaworkshop](https://github.com/kimdoyeop1/Javaworkshop) · [JAVAProject](https://github.com/kimdoyeop1/JAVAProject) · [BackEnd](https://github.com/kimdoyeop1/BackEnd) · [game](https://github.com/kimdoyeop1/game) — Java · 웹 기초 실습
