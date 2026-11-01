@@ -5,6 +5,14 @@
 - **현장에서 화면까지**: 통신 게이트웨이 프로토콜 · 태그 주소 체계 · 수집기 · DB · 운영 화면 · 보고서를 한 흐름으로 구현
 - **문서와 시제품을 함께**: 기능명세서 · 화면 설계(Figma) · 공공 조달 문서와 실제로 돌아가는 시제품을 같이 만듦
 
+### 먼저 볼 것
+
+| | 내용 | 근거 |
+|---|---|---|
+| **공개 소스 · 자동 테스트** | [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo) — 조선 블록 공정 운영 모니터링. 화면 소스, 서버 SQL(테이블 33 · 서버 함수 51), 실제 브라우저 자동 테스트 179개 + 가상 PLC 연결 테스트 4개를 GitHub Actions로 실행 | [소스 · 실행 방법](https://github.com/develop-korea-tech/twinpro-demo/tree/main/app) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) |
+| **산업용 시스템 사례** | 상수도 통합감시 · 제어(5개 사업소 · 136개소), 유량감시(262곳 · 5년 약 10억 행 설계), 지문 근태 단말 연동(문서 없는 프로토콜 분석) — 구조 · 설계 결정 · 검증 수치 | [사례 문서](cases/) |
+| **수주** | 2025~2026 3건, 합계 6.6억 원 | 아래 「수주 실적」 |
+
 ![C#](https://img.shields.io/badge/C%23-.NET_10_·_WPF-512BD4?logo=dotnet&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-React_·_Vite-3178C6?logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL-3FCF8E?logo=supabase&logoColor=white)
@@ -28,7 +36,7 @@
 
 ### 🔒 보안 프로젝트
 
-> 고객사 · 사내 보안 과제라 저장소를 비공개로 두었습니다. 코드 · 화면 · 설비 정보는 공개하지 않고 범위와 기술만 적습니다.
+> 고객사 · 사내 보안 과제라 저장소를 비공개로 두었습니다. 코드 · 화면 · 설비 정보는 공개하지 않고 범위와 기술만 적습니다. 구조와 설계 결정은 [사례 문서](cases/)에 정리했습니다.
 
 | 프로젝트 | 내용 | 기술 |
 |---|---|---|
