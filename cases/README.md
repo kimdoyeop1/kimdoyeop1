@@ -7,7 +7,7 @@
 | [상수도 통합감시 · 제어 시스템](water-scada.md) | SCADA · 산업 통신 · 데스크톱 | 통신 게이트웨이 프로토콜 직접 구현, 메모리 주소 체계 설계, 주기 · 부하 시뮬레이션으로 설계 검산, Python 시제품 → C# WPF 이식 |
 | [상수도 유량감시 수집 · DB 설계](flow-monitoring.md) | Modbus TCP · 시계열 DB | 라이브러리 없이 Modbus 프레임 구현, 제조사별 값 해석 규칙 실측 검증, 5년 약 10억 행 PostgreSQL 파티션 설계 |
 | [지문인식 근태 단말 연동](attendance-device.md) | 프로토콜 분석 · 연동 | 문서 없는 단말 통신을 패킷 캡처로 분석해 자체 수집 서버 구현, 사내 ERP까지 전 구간 연결 |
-| [TWIN PRO (공개)](https://github.com/develop-korea-tech/twinpro-demo) | 디지털 트윈 · 웹 | 소스 · 서버 SQL · 자동 테스트 179개 공개 |
+| [TWIN PRO (공개)](https://github.com/develop-korea-tech/twinpro-demo) | 디지털 트윈 · 웹 | 소스 · 서버 SQL · 자동 테스트 182개 공개 |
 
 ## 공개 기준
 

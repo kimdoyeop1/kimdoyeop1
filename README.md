@@ -9,7 +9,7 @@
 
 | | 내용 | 근거 |
 |---|---|---|
-| **공개 소스 · 자동 테스트** | [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo) — 조선 블록 공정 운영 모니터링. 화면 소스, 서버 SQL(테이블 33 · 서버 함수 51), 실제 브라우저 자동 테스트 179개 + 가상 PLC 연결 테스트 4개를 GitHub Actions로 실행 | [소스 · 실행 방법](https://github.com/develop-korea-tech/twinpro-demo/tree/main/app) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) |
+| **공개 소스 · 자동 테스트** | [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo) — 조선 블록 공정 운영 모니터링. 화면 소스, 서버 SQL(테이블 33 · 서버 함수 51), 실제 브라우저 자동 테스트 182개 + 가상 PLC 연결 테스트 4개를 GitHub Actions로 실행 | [소스 · 실행 방법](https://github.com/develop-korea-tech/twinpro-demo/tree/main/app) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) |
 | **산업용 시스템 사례** | 상수도 통합감시 · 제어(5개 사업소 · 136개소), 유량감시(262곳 · 5년 약 10억 행 설계), 지문 근태 단말 연동(문서 없는 프로토콜 분석) — 구조 · 설계 결정 · 검증 수치 | [사례 문서](cases/) |
 | **수주** | 2025~2026 3건, 합계 6.6억 원 | 아래 「수주 실적」 |
 
