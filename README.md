@@ -9,7 +9,7 @@
 
 | | 내용 | 근거 |
 |---|---|---|
-| **공개 소스 · 자동 테스트** | [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo) — 조선 블록 공정 운영 모니터링. 화면 소스, 서버 SQL(테이블 33 · 서버 함수 51), 실제 브라우저 자동 테스트 179개 + 가상 PLC 연결 테스트 4개를 GitHub Actions로 실행 | [소스 · 실행 방법](https://github.com/develop-korea-tech/twinpro-demo/tree/main/app) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) |
+| **공개 소스 · 자동 테스트** | [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo) — 조선 블록 공정 운영 모니터링(**2026 울산 청년 AX 리더십 경진대회 최우수상**). 화면 소스, 서버 SQL(테이블 33 · 서버 함수 51), 실제 브라우저 자동 테스트 179개 + 가상 PLC 연결 테스트 4개를 GitHub Actions로 실행 | [소스 · 실행 방법](https://github.com/develop-korea-tech/twinpro-demo/tree/main/app) · [▶ 데모](https://develop-korea-tech.github.io/twinpro-demo/) |
 | **산업용 시스템 사례** | 상수도 통합감시 · 제어(5개 사업소 · 136개소), 유량감시(262곳 · 5년 약 10억 행 설계), 지문 근태 단말 연동(문서 없는 프로토콜 분석) — 구조 · 설계 결정 · 검증 수치 | [사례 문서](cases/) |
 | **수주** | 2025~2026 3건, 합계 6.6억 원 | 아래 「수주 실적」 |
 
@@ -81,6 +81,7 @@
 
 | 연도 | 대회 | 결과 | 주최 |
 |---|---|---|---|
+| 2026 | 울산 청년 AX 리더십 프로젝트 경진대회 — [TWIN PRO](https://github.com/develop-korea-tech/twinpro-demo)(디지털트윈 기반 제조 운영 모니터링 플랫폼) | 최우수상(상금 150만 원) | 울산청년지원센터 · 2026 울산스타트업페스타 |
 | 2022 | UIS 해커톤대회 — 데이터크리에이터 아이디어 부문(데이터 관련 아이디어 코딩) | 버금상(2등) | 울산광역시 · 울산정보산업진흥원 |
 | 2022 | 청년 아이디어 PT 대회 | 장려상 | 경상일보 |
 | 2020 | 경상일보 PT 대회 | 우수상 | 경상일보 |
@@ -88,11 +89,12 @@
 | 2019 | 청년 아이디어 해커톤 — 청년 정책 아이디어 | 대상 | 울산청년센터 |
 
 <p>
+  <img src="assets/award-2026-twinpro.jpg" height="300" alt="2026 울산 청년 AX 리더십 프로젝트 최우수상 — 팀 TWIN PRO">
   <img src="assets/award-2022-uis-hackathon.jpg" height="300" alt="2022 UIS 해커톤대회 데이터크리에이터 아이디어 부문 버금상">
   <img src="assets/award-2019-job-idea.jpg" height="300" alt="2019 일자리창출 아이디어 공모전 우수상 상패">
 </p>
 
-왼쪽: 2022 UIS 해커톤대회 버금상 · 오른쪽: 2019 일자리창출 아이디어 공모전 우수상
+왼쪽부터: 2026 울산 청년 AX 리더십 프로젝트 최우수상(TWIN PRO) · 2022 UIS 해커톤대회 버금상 · 2019 일자리창출 아이디어 공모전 우수상
 
 ### 활동
 
